@@ -1567,9 +1567,15 @@
 	.mh-container{
 		max-width: 540px;
 	}
+	.mh-container-sm{
+		max-width: 540px;
+	}
 }
 @media(min-width: 768px){
 	.mh-container{
+		max-width: 720px;
+	}
+	.mh-container-md{
 		max-width: 720px;
 	}
 }
@@ -1577,9 +1583,15 @@
 	.mh-container{
 		max-width: 960px;
 	}
+	.mh-container-lg{
+		max-width: 960px;
+	}
 }
 @media(min-width: 1200px){
 	.mh-container{
+		max-width: 1140px;
+	}
+	.mh-container-xl{
 		max-width: 1140px;
 	}
 }
