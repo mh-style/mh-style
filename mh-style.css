@@ -1575,6 +1575,9 @@
 	.mh-container{
 		max-width: 720px;
 	}
+	.mh-container-sm{
+		max-width: 720px;
+	}
 	.mh-container-md{
 		max-width: 720px;
 	}
@@ -1583,12 +1586,27 @@
 	.mh-container{
 		max-width: 960px;
 	}
+	.mh-container-sm{
+		max-width: 960px;
+	}
+	.mh-container-md{
+		max-width: 960px;
+	}
 	.mh-container-lg{
 		max-width: 960px;
 	}
 }
 @media(min-width: 1200px){
 	.mh-container{
+		max-width: 1140px;
+	}
+	.mh-container-sm{
+		max-width: 1140px;
+	}
+	.mh-container-md{
+		max-width: 1140px;
+	}
+	.mh-container-lg{
 		max-width: 1140px;
 	}
 	.mh-container-xl{
