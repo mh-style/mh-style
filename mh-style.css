@@ -2285,8 +2285,6 @@ nav.mh-corp .mh-menu-btn:checked ~ .mh-menu-icon .mh-corp-icon:after{
 		margin-bottom: 15px;
 	}
 	.mh-table td{
-		text-align: right;
-		padding-left: 50%;
 		position: relative;
 	}
 	.mh-table td:before{
