@@ -2970,3 +2970,39 @@ section .mh-col-md-6 {
 .mh-form-style-1 #mh-form-register{
     left: 450px;
 }
+/*===============copyboard==============*/
+.mh-copyboard-body {
+    width: 80%;
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.mh-copyboard-body-text {
+    background-color: lightgray;
+    margin: 0 auto;
+    width: 95%;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px #000;
+    padding: 10px;
+    overflow: hidden;
+    margin-top: 12px;
+    padding-bottom: 30px;
+}
+.mh-copyboard-body .mh-copyboard-body-button {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right: 20px;
+    color: #fff;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 23px;
+    background: darkturquoise;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
