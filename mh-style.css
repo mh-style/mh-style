@@ -2989,6 +2989,7 @@ section .mh-col-md-6 {
     overflow: hidden;
     margin-top: 12px;
     padding-bottom: 30px;
+    line-height: 1.8;
 }
 .mh-copyboard-body .mh-copyboard-body-button {
     padding: 5px;
