@@ -2993,6 +2993,7 @@ section .mh-col-md-6 {
     border-radius: 5px;
     margin: 0 auto;
     padding-bottom: 20px;
+    overflow: hidden;
 }
 .mh-copyboard-body-text {
     background-color: #ffffffad;
