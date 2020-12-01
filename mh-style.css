@@ -929,38 +929,50 @@
 	background: transparent;
 }
 /*================border==================*/
-.mh-border-bottom-dark{
-	border-bottom: 2px solid #000;
+.mh-border{
+	border: 1px solid #dee2e6;
 }
-.mh-border-bottom-light{
-	border-bottom: 2px solid #fff;
+.mh-border-bottom{
+	border-bottom: 1px solid #dee2e6;
 }
-.mh-border-top-dark{
-	border-top: 2px solid #000;
+.mh-border-top{
+	border-top: 1px solid #dee2e6;
 }
-.mh-border-top-light{
-	border-top: 2px solid #fff;
-}
-.mh-border-left-dark{
-	border-left: 2px solid #000;
-}
-.mh-border-left-light{
-	border-left: 2px solid #fff;
-}
-.mh-border-right-dark{
-	border-right: 2px solid #000;
-}
-.mh-border-right-light{
-	border-right: 2px solid #fff;
+.mh-border-right{
+	border-right: 1px solid #dee2e6;
 }
 .mh-border-dark{
-	border: 2px solid #000;
+	border-color: #000 !important;
 }
 .mh-border-light{
-	border: 2px solid #fff;
+	border-color: #fff !important;
 }
 .mh-border-red{
-	border: 2px solid red;
+	border-color: red !important;
+}
+.mh-border-green{
+	border-color: green !important;
+}
+.mh-border-yellow{
+	border-color: yellow !important;
+}
+.mh-border-gray{
+	border-color: gray !important;
+}
+.mh-border-blue{
+	border-color: blue !important;
+}
+.mh-border-width2{
+	border-width: 2px !important;
+}
+.mh-border-width3{
+	border-width: 3px !important;
+}
+.mh-border-width4{
+	border-width: 4px !important;
+}
+.mh-border-width5{
+	border-width: 5px !important;
 }
 /*==============grid==============*/
 .mh-row {
