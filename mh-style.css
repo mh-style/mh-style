@@ -932,6 +932,9 @@
 .mh-border-radius-rounded{
 	border-radius: 50%;
 }
+.mh-border-radius-pill{
+	border-radius: 50rem;
+}
 .mh-border{
 	border: 1px solid #dee2e6;
 }
