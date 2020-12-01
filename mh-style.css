@@ -941,6 +941,9 @@
 .mh-border-right{
 	border-right: 1px solid #dee2e6;
 }
+.mh-border-left{
+	border-left: 1px solid #dee2e6;
+}
 .mh-border-dark{
 	border-color: #000 !important;
 }
