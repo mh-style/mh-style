@@ -991,6 +991,7 @@
 }
 .mh-border-width5{
 	border-width: 5px !important;
+	
 }
 .mh-border-radius-0{
 	border-radius: 0;
@@ -1054,6 +1055,342 @@
 }
 .mh-border-radius-20{
 	border-radius: 20px;
+}
+.mh-border-top-radius-0{
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.mh-border-top-radius-1{
+	border-top-left-radius: 1px;
+	border-top-right-radius: 1px;
+}
+.mh-border-top-radius-2{
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+.mh-border-top-radius-3{
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.mh-border-top-radius-4{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.mh-border-top-radius-5{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.mh-border-top-radius-6{
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.mh-border-top-radius-7{
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+.mh-border-top-radius-8{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.mh-border-top-radius-9{
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+}
+.mh-border-top-radius-10{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.mh-border-top-radius-11{
+	border-top-left-radius: 11px;
+	border-top-right-radius: 11px;
+}
+.mh-border-top-radius-12{
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+.mh-border-top-radius-13{
+	border-top-left-radius: 13px;
+	border-top-right-radius: 13px;
+}
+.mh-border-top-radius-14{
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+}
+.mh-border-top-radius-15{
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.mh-border-top-radius-16{
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+}
+.mh-border-top-radius-17{
+	border-top-left-radius: 17px;
+	border-top-right-radius: 17px;
+}
+.mh-border-top-radius-18{
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+}
+.mh-border-top-radius-19{
+	border-top-left-radius: 19px;
+	border-top-right-radius: 19px;
+}
+.mh-border-top-radius-20{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.mh-border-bottom-radius-0{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.mh-border-bottom-radius-1{
+	border-bottom-left-radius: 1px;
+	border-bottom-right-radius: 1px;
+}
+.mh-border-bottom-radius-2{
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+.mh-border-bottom-radius-3{
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.mh-border-bottom-radius-4{
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.mh-border-bottom-radius-5{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.mh-border-bottom-radius-6{
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+.mh-border-bottom-radius-7{
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.mh-border-bottom-radius-8{
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.mh-border-bottom-radius-9{
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;
+}
+.mh-border-bottom-radius-10{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.mh-border-bottom-radius-11{
+	border-bottom-left-radius: 11px;
+	border-bottom-right-radius: 11px;
+}
+.mh-border-bottom-radius-12{
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+.mh-border-bottom-radius-13{
+	border-bottom-left-radius: 13px;
+	border-bottom-right-radius: 13px;
+}
+.mh-border-bottom-radius-14{
+	border-bottom-left-radius: 14px;
+	border-bottom-right-radius: 14x;
+}
+.mh-border-bottom-radius-15{
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.mh-border-bottom-radius-16{
+	border-bottom-left-radius: 16px;
+	border-bottom-right-radius: 16px;
+}
+.mh-border-bottom-radius-17{
+	border-bottom-left-radius: 17px;
+	border-bottom-right-radius: 17px;
+}
+.mh-border-bottom-radius-18{
+	border-bottom-left-radius: 18px;
+	border-bottom-right-radius: 18px;
+}
+.mh-border-bottom-radius-19{
+	border-bottom-left-radius: 19px;
+	border-bottom-right-radius: 19px;
+}
+.mh-border-bottom-radius-20{
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.mh-border-left-radius-0{
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.mh-border-left-radius-1{
+	border-top-left-radius: 1px;
+	border-bottom-left-radius: 1px;
+}
+.mh-border-left-radius-2{
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+.mh-border-left-radius-3{
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.mh-border-left-radius-4{
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.mh-border-left-radius-5{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.mh-border-left-radius-6{
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+.mh-border-left-radius-7{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+.mh-border-left-radius-8{
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+.mh-border-left-radius-9{
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+}
+.mh-border-left-radius-10{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.mh-border-left-radius-11{
+	border-top-left-radius: 11px;
+	border-bottom-left-radius: 11px;
+}
+.mh-border-left-radius-12{
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+.mh-border-left-radius-13{
+	border-top-left-radius: 13px;
+	border-bottom-left-radius: 13px;
+}
+.mh-border-left-radius-14{
+	border-top-left-radius: 14px;
+	border-bottom-left-radius: 14x;
+}
+.mh-border-left-radius-15{
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.mh-border-left-radius-16{
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;
+}
+.mh-border-left-radius-17{
+	border-top-left-radius: 17px;
+	border-bottom-left-radius: 17px;
+}
+.mh-border-left-radius-18{
+	border-top-left-radius: 18px;
+	border-bottom-left-radius: 18px;
+}
+.mh-border-left-radius-19{
+	border-top-left-radius: 19px;
+	border-bottom-left-radius: 19px;
+}
+.mh-border-left-radius-20{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.mh-border-right-radius-0{
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.mh-border-right-radius-1{
+	border-top-right-radius: 1px;
+	border-bottom-right-radius: 1px;
+}
+.mh-border-right-radius-2{
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+.mh-border-right-radius-3{
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.mh-border-right-radius-4{
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.mh-border-right-radius-5{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.mh-border-right-radius-6{
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+.mh-border-right-radius-7{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.mh-border-right-radius-8{
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.mh-border-right-radius-9{
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+}
+.mh-border-right-radius-10{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.mh-border-right-radius-11{
+	border-top-right-radius: 11px;
+	border-bottom-right-radius: 11px;
+}
+.mh-border-right-radius-12{
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+.mh-border-right-radius-13{
+	border-top-right-radius: 13px;
+	border-bottom-right-radius: 13px;
+}
+.mh-border-right-radius-14{
+	border-top-right-radius: 14px;
+	border-bottom-right-radius: 14x;
+}
+.mh-border-right-radius-15{
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.mh-border-right-radius-16{
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+}
+.mh-border-right-radius-17{
+	border-top-right-radius: 17px;
+	border-bottom-right-radius: 17px;
+}
+.mh-border-right-radius-18{
+	border-top-right-radius: 18px;
+	border-bottom-right-radius: 18px;
+}
+.mh-border-right-radius-19{
+	border-top-right-radius: 19px;
+	border-bottom-right-radius: 19px;
+}
+.mh-border-right-radius-20{
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 .mh-border-tl-radius-0{
 	border-top-left-radius: 0;
@@ -1310,6 +1647,7 @@
 .mh-border-br-radius-20{
 	border-bottom-right-radius: 20px;
 }
+
 /*==============grid==============*/
 .mh-row {
 	display: -ms-flexbox;
