@@ -2276,8 +2276,17 @@
 	}
 }
 /*===============shadow================*/
-.mh-box--shadow{
-	box-shadow: 0px 0px 10px 0px #000;
+.mh-box-shadow-none{
+	box-shadow: none !important;
+}
+.mh-box-shadow-sm{
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.mh-box-shadow-rg{
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.mh-box-shadow-lg{
+	box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 }
 .mh-text-shadow{
 	text-shadow: 2px 2px 10px #000;
