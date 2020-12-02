@@ -824,11 +824,14 @@
     text-transform: lowercase;
 }
 /*==============text-color================*/
-.mh-text-dark{
+.mh-text-black{
 	color: #000;
 }
+.mh-text-white{
+	color: white;
+}
 .mh-text-light{
-	color: #fff;
+	color: #f8f9fa;
 }
 .mh-text-red{
 	color: red;
@@ -895,14 +898,15 @@
     background-repeat: repeat-y;
 }
 /*===========background-color==============*/
-.mh-text-black{
-	color: #000;
+
+.mh-bg-black{
+	background-color: #000;
 }
-.mh-text-white{
-	color: white;
+.mh-bg-white{
+	background-color: white;
 }
-.mh-text-light{
-	color: #f8f9fa;
+.mh-bg-light{
+	background-color: #f8f9fa;
 }
 .mh-bg-red{
 	background-color: red;
