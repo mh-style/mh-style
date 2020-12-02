@@ -895,11 +895,14 @@
     background-repeat: repeat-y;
 }
 /*===========background-color==============*/
-.mh-bg-dark{
-	background-color: #000;
+.mh-text-black{
+	color: #000;
 }
-.mh-bg-light{
-	background-color: #fff;
+.mh-text-white{
+	color: white;
+}
+.mh-text-light{
+	color: #f8f9fa;
 }
 .mh-bg-red{
 	background-color: red;
