@@ -908,6 +908,21 @@
 .mh-bg-light{
 	background-color: #f8f9fa;
 }
+.mh-bg-green{
+	background-color: green;
+}
+.mh-bg-lightgreen{
+	background-color: lightgreen;
+}
+.mh-bg-limegreen{
+	background-color: limegreen;
+}
+.mh-bg-orange{
+	background-color: orange;
+}
+.mh-bg-darkgreen{
+	background-color: darkgreen;
+}
 .mh-bg-red{
 	background-color: red;
 }
