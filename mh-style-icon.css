@@ -803,7 +803,7 @@
 .mh-border-all:before {
   content: "\eff9";
 }
-.mh-border-bottom:before {
+.mh-border-bottom-alt:before {
   content: "\effa";
 }
 .mh-border-clear:before {
@@ -818,19 +818,19 @@
 .mh-border-inner:before {
   content: "\effe";
 }
-.mh-border-left:before {
+.mh-border-left-alt:before {
   content: "\efff";
 }
 .mh-border-outer:before {
   content: "\f000";
 }
-.mh-border-right:before {
+.mh-border-right-alt:before {
   content: "\f001";
 }
 .mh-border-style:before {
   content: "\f002";
 }
-.mh-border-top:before {
+.mh-border-top-alt:before {
   content: "\f003";
 }
 .mh-border-vertical:before {
@@ -6185,7 +6185,7 @@
 .mh-clear-formatting:before {
   content: "\eadb";
 }
-.mh-table:before {
+.mh-table-alt:before {
   content: "\eadc";
 }
 .mh-table2:before {
