@@ -273,6 +273,18 @@
 .mh-p-st{
 	position: sticky;
 }
+.mh-p-st-top{
+	position: sticky;
+	top: 0;
+}
+.mh-p-fi-top{
+	position: fixed;
+	top: 0;
+}
+.mh-p-fi-bottom{
+	position: fixed;
+	bottom: 0;
+}
 /*=================Margin==================*/
 .mh-m-0-a{
 	margin: 0 auto;
