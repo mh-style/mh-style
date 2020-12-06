@@ -644,9 +644,11 @@
 	display: flex;
 }
 .mh-dfr{
+	display: flex;
 	flex-direction: row;
 }
 .mh-dfc{
+	display: flex;
 	flex-direction: column;
 }
 .mh-di{
