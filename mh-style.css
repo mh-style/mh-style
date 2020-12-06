@@ -3779,3 +3779,48 @@ section .mh-col-md-6 {
     border-radius: 3px;
     cursor: pointer;
 }
+/*============alert==============*/
+.mh-alert {
+	padding: 14px 10px;
+	width: 80%;
+	border-radius: 5px;
+	font-size: 18px;
+	font-family: system-ui;
+	margin: 10px 0px;
+}
+.mh-alert-style-1{
+	background: lightcoral;
+	border: 1px solid #ff4400;
+	color: black;
+}
+.mh-alert-style-2{
+	background: #6495edbf;
+	border: 1px solid;
+	border-color: lightslategray;
+}
+.mh-alert-style-3{
+	background: #64e7edbf;
+	border: 1px solid;
+	border-color: #05b4d0;
+}
+.mh-alert-style-4{
+	background: #6bff46bf;
+	border: 1px solid;
+	border-color: #009e4e;
+}
+.mh-alert-style-5{
+	background: #d7da00bf;
+	border: 1px solid;
+	border-color: #8db100;
+}
+.mh-alert-style-6 {
+	background: #080808bf;
+	border: 1px solid;
+	border-color: #6d6d6d;
+	color: #fff;
+}
+.mh-alert-style-7 {
+	background: #d92aefbf;
+	border: 1px solid;
+	border-color: #d200cb;
+}
