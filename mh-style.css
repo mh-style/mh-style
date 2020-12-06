@@ -2366,6 +2366,7 @@
 	border-radius: 5px;
 	font-size:17px;
 	border: none;
+	cursor: pointer;
 }
 .mh-btn-primary{
 	background-color: #0999e0;
