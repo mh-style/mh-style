@@ -872,7 +872,7 @@
 	color: darkgreen !important;
 }
 .mh-color-red{
-	color: red;
+	color: red !important;
 }
 .mh-color-skyblue{
     color: skyblue !important;
