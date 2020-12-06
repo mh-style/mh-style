@@ -2423,7 +2423,6 @@
 	background: transparent;
 }
 .mh-btn-primary-outline:hover{
-	border: none;
 	background: #0999e0;
 	color: #fff;
 }
@@ -2433,7 +2432,6 @@
 }
 .mh-btn-red-outline:hover{
 	color: #fff;
-	border: none;
 	background-color: red;
 }
 .mh-btn-dark-outline{
@@ -2442,7 +2440,6 @@
 }
 .mh-btn-dark-outline:hover{
 	color: #fff;
-	border: none;
 	background-color: #000;
 }
 .mh-btn-light-outline{
@@ -2451,7 +2448,6 @@
 }
 .mh-btn-light-outline:hover{
 	color: #000;
-	border: none;
 	background-color: #fff;
 }
 .mh-btn-green-outline{
@@ -2460,7 +2456,6 @@
 }
 .mh-btn-green-outline:hover{
 	color: #fff;
-	border: none;
 	background-color: green;
 }
 .mh-btn-yellow-outline{
@@ -2469,7 +2464,6 @@
 }
 .mh-btn-yellow-outline:hover{
 	color: #000;
-	border: none;
 	background-color: yellow;
 }
 .mh-btn-Secondary-outline{
@@ -2478,10 +2472,8 @@
 }
 .mh-btn-Secondary-outline:hover{
 	color: #fff;
-	border: none;
 	background-color: #666;
 }
-
 /*===============img=================*/
 .mh-img-fluid{
 	width: 100%;
