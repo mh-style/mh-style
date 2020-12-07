@@ -2568,6 +2568,23 @@
     display: grid;
     font-family: sans-serif;
 }
+.mh-card-style-1{
+    grid-template-columns: repeat(4, 1fr);
+}
+ .mh-card-style-1 .mh-card{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+@media only screen and (max-width: 768px){
+    .mh-card-style-1{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: 540px){
+    .mh-card-style-1{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 .mh-card-style-2{
     grid-template-columns: repeat(3, 1fr);
 }
