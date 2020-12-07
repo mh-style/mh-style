@@ -3372,14 +3372,14 @@ nav.mh-corp .mh-menu-btn:checked ~ .mh-menu-icon .mh-corp-icon:after{
 	border-color: darkred;
 }
 /*=============radio===========*/
-.mh-radio-box{
+.mh-radio-style-1 .mh-radio-box{
 	width: 20px;
 	height: 20px;
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
 }
-.mh-radio-box input{
+.mh-radio-style-1 .mh-radio-box input{
 	margin: 0;
 	position: absolute;
 	left: 0;
@@ -3389,7 +3389,7 @@ nav.mh-corp .mh-menu-btn:checked ~ .mh-menu-icon .mh-corp-icon:after{
 	opacity: 0;
 	z-index: 1;
 }
-.mh-radio-box span{
+.mh-radio-style-1 .mh-radio-box span{
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
@@ -3397,7 +3397,7 @@ nav.mh-corp .mh-menu-btn:checked ~ .mh-menu-icon .mh-corp-icon:after{
 	display: block;
 	transition: all 0.3s ease-in-out;
 }
-.mh-radio-box span:after{
+.mh-radio-style-1 .mh-radio-box span:after{
 	content: "";
 	position: absolute;
 	left: 50%;
@@ -3408,10 +3408,10 @@ nav.mh-corp .mh-menu-btn:checked ~ .mh-menu-icon .mh-corp-icon:after{
 	border-radius: 50%;
 	transform: translate(-50%, -50%);
 }
-.mh-radio-box input:checked + span{
+.mh-radio-style-1 .mh-radio-box input:checked + span{
 	border-color: red;
 }
-.mh-radio-box input:checked + span:after{
+.mh-radio-style-1 .mh-radio-box input:checked + span:after{
 	background: red;
 }
 /*===========progress-bar==========*/
