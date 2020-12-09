@@ -49,7 +49,7 @@ for(i = 0; i < acc.length; i++){
 
 const mh_range_slider = document.querySelector(".mh-range-slider input");
 const value = document.querySelector(".mh-range-style-1 .mh-range-value");
-value.textContent = mh_range_slider.value;
+value.textContent = mh_range_slider.value
 mh_range_slider.oninput = (function(){
 	value.textContent = this.value;
 });
