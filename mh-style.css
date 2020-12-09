@@ -2649,6 +2649,9 @@
     padding: 15px;
     background-color: #fafafa;
 }
+.mh-card-body h1{
+	margin: 0px;
+}
 .mh-card-body p:first-of-type{
     margin-top: 0;
 }
