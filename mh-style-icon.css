@@ -971,7 +971,7 @@
 .mh-monetization-on:before {
   content: "\f031";
 }
-.mh-title:before {
+.mh-title-alt:before {
   content: "\f032";
 }
 .mh-table-chart:before {
