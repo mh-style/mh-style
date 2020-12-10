@@ -3021,6 +3021,7 @@ nav.mh-corp .mh-menu-btn:checked ~ .mh-menu-icon .mh-corp-icon:after{
 	border: 2px solid #ddd;
 	text-align: center;
 	font-size: 16px;
+	font-family: sans-serif;
 }
 .mh-table-4 td,.mh-table-4 th{
 	padding: 12px 15px;
