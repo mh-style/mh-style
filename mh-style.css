@@ -3839,12 +3839,12 @@ section .mh-col-md-6 {
 	border: 1px solid;
 	border-color: #d200cb;
 }
-/*============team Mamber==========*/
-.mh-team-mambers-style-1.mh-team-mambers{
+/*============team member==========*/
+.mh-team-members {
 	display: flex;
 	flex-wrap: wrap;
 }
-.mh-team-mambers-style-1 .mh-team-mamber{
+.mh-team-members .mh-team-member {
 	text-align: center;
 	box-shadow: 0px 0px 5px #000;
 	padding: 20px 15px;
@@ -3855,24 +3855,86 @@ section .mh-col-md-6 {
 	width: 30.333333%;
 	margin: 0 auto;
 }
-.mh-team-mambers-style-1 .mh-team-mamber:hover {
+.mh-team-members-style-2 .mh-team-member ,
+.mh-team-members-style-3 .mh-team-member ,
+.mh-team-members-style-4 .mh-team-member ,
+.mh-team-members-style-5 .mh-team-member {
+	padding: 0;
+	position: relative;
+	box-shadow: none;
+}
+.mh-team-members-style-2 .mh-team-member:hover ,
+.mh-team-members-style-3 .mh-team-member:hover ,
+.mh-team-members-style-4 .mh-team-member:hover ,
+.mh-team-members-style-5 .mh-team-member:hover {
+	box-shadow: none !important;
+}
+.mh-team-members-style-1 .mh-team-member:hover {
 	box-shadow: 5px 5px 10px #000;
-	transition: box-shadow, 3ms ease-in;
+	transition: box-shadow 3ms ease-in;
 }
-.mh-team-mambers-style-1 .mh-team-mamber .mh-title {
+.mh-team-members .mh-team-member .mh-title {
 	font-size: 25px;
+	margin-top: 10px;
 }
-.mh-team-mambers-style-1 .mh-team-mamber .mh-subtitle {
+.mh-team-members .mh-team-member .mh-subtitle {
 	font-size: 18px;
 	margin-bottom: 7px;
 }
-.mh-team-mambers-style-1 .mh-team-mamber .mh-social-media {
+.mh-team-members .mh-team-member .mh-social-media {
 	margin: 12px 0px 0px 0px;
 }
-.mh-team-mambers-style-1 .mh-team-mamber .mh-social-media a{
+.mh-team-members .mh-team-member .mh-social-media a{
 	margin: 0px 5px 0px 5px;
 	text-decoration: none;
 	font-size: 22px;
 	color: black;
 	cursor: pointer;
+}
+.mh-team-members-style-2 .mh-body ,
+.mh-team-members-style-3 .mh-body {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	background: #ff070745;
+	color: #fff;
+	height: 0;
+	width: 100%;
+	transition: .5s ease;
+}
+.mh-team-members-style-2 .mh-body {
+	bottom: 100%;
+}
+
+.mh-team-members-style-2 .mh-team-member:hover .mh-body{
+	bottom: 0;
+}
+.mh-team-members-style-4 .mh-body,
+.mh-team-members-style-5 .mh-body {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	background: #ff070745;
+	color: #fff;
+	height: 70%;
+	width: 0;
+	transition: 0.5s ease;
+}
+.mh-team-members-style-4 .mh-team-member:hover .mh-body,
+.mh-team-members-style-5 .mh-team-member:hover .mh-body {
+	width: 100%;
+}
+.mh-team-members-style-5 .mh-body{
+	left: 100%;
+}
+.mh-team-members-style-5 .mh-team-member:hover .mh-body {
+	left: 0;
+}
+.mh-team-members-style-2 .mh-team-member:hover .mh-body ,
+.mh-team-members-style-3 .mh-team-member:hover .mh-body {
+	height: 70%;
 }
