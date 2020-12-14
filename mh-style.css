@@ -2796,7 +2796,7 @@ nav.mh-blackpink{
 nav.mh-blackpink h1 {
     /* position: absolute; */
     width: 30%;
-    height: 100%;
+    /*height: 100%;*/
     display: flex;
     /* left: 5%; */
     float: left;
