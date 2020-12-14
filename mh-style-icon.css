@@ -1844,7 +1844,7 @@
 .mh-fullscreen-exit:before {
   content: "\f154";
 }
-.mh-menu:before {
+.mh-menu-alt:before {
   content: "\f155";
 }
 .mh-keyboard-control:before {
