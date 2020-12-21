@@ -632,7 +632,7 @@
 }
 /*=============display============*/
 .mh-db{
-	display: block;
+	display: block !important;
 }
 .mh-dib{
 	display: inline-block !important;
