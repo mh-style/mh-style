@@ -635,56 +635,56 @@
 	display: block;
 }
 .mh-dib{
-	display: inline-block;
+	display: inline-block !important;
 }
 .mh-dn{
-	display: none;
+	display: none !important;
 }
 .mh-df{
-	display: flex;
+	display: flex !important;
 }
 .mh-dfr{
-	display: flex;
-	flex-direction: row;
+	display: flex !important;
+	flex-direction: row !important;
 }
 .mh-dfc{
-	display: flex;
-	flex-direction: column;
+	display: flex !important;
+	flex-direction: column !important;
 }
 .mh-di{
-	display: inline;
+	display: inline !important;
 }
 /*=============Width============*/
 .mh-w-auto{
-	width: auto;
+	width: auto !important;
 }
 .mh-w-25{
-	width: 25%;
+	width: 25% !important;
 }
 .mh-w-50{
-	width: 50%;
+	width: 50% !important;
 }
 .mh-w-75{
-	width: 75%;
+	width: 75% !important;
 }
 .mh-w-100{
-	width: 100%;
+	width: 100% !important;
 }
 /*==============height================*/
 .mh-h-auto{
-	height: auto;
+	height: auto !important;
 }
 .mh-h-25{
-	height: 25%;
+	height: 25% !important;
 }
 .mh-h-50{
-	height: 50%;
+	height: 50% !important;
 }
 .mh-h-75{
-	height: 75%;
+	height: 75% !important;
 }
 .mh-h-100{
-	height: 100%;
+	height: 100% !important;
 }
 /*=============cursor==============*/
 .mh-cursor-pointer{
