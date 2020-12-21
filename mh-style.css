@@ -655,6 +655,9 @@
 	display: inline;
 }
 /*=============Width============*/
+.mh-w-auto{
+	width: auto;
+}
 .mh-w-25{
 	width: 25%;
 }
@@ -668,6 +671,9 @@
 	width: 100%;
 }
 /*==============height================*/
+.mh-h-auto{
+	height: auto;
+}
 .mh-h-25{
 	height: 25%;
 }
