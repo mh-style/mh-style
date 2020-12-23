@@ -2411,7 +2411,7 @@
 .mh-redeem:before {
   content: "\f211";
 }
-.mh-search:before {
+.mh-search-alt:before {
   content: "\f212";
 }
 .mh-settings:before {
