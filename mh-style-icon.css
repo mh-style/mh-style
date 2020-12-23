@@ -536,7 +536,7 @@
 .mh-inbox:before {
   content: "\efa0";
 }
-.mh-link:before {
+.mh-link-alt:before {
   content: "\efa1";
 }
 .mh-redo:before {
