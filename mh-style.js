@@ -1,6 +1,6 @@
 
 /*=============tab============*/
-
+try{
 var tabs = document.querySelectorAll(".mh-tab-style-1 .mh-tabs ul li");
 var tabs_wrap = document.querySelectorAll(".mh-tab-style-1 .mh-tab-content .mh-tab-wrap");
 tabs.forEach(function(tab, tab_index){
@@ -21,10 +21,11 @@ tabs.forEach(function(tab, tab_index){
 		});
 	});
 });
+}catch{}
 /*==========/Tab===========*/
 
 /*=========Accordion==========*/
-
+try{
 var acc = document.getElementsByClassName("mh-accordion");
 var i;
 
@@ -44,16 +45,27 @@ for(i = 0; i < acc.length; i++){
 		}
 	});
 };
-
+}catch{}
 /*==========/Accordion===========*/
-
+try{
 const mh_range_slider = document.querySelector(".mh-range-slider input");
 const value = document.querySelector(".mh-range-style-1 .mh-range-value");
 value.textContent = mh_range_slider.value;
 mh_range_slider.oninput = (function(){
 	value.textContent = this.value;
 });
+}catch{}
+/*===================*/
+try{
+let mh_navbar_style_1_toggle_button = document.querySelector(".mh-navbar-style-1-body .mh-toggle-button");
+let mh_navbar_style_1 = document.querySelector("nav.mh-navbar-style-1");
+mh_navbar_style_1_toggle_button.onclick = function (e) {
+    mh_navbar_style_1.classList.toggle("mh-nav-collapse");
+}
+}catch{}
+/*====================*/
 /*===========image filter===============*/
+try{
 (function( $ ) {
 	$(document).ready(function(){
 		$(".mh-image-filter-button").click(function(){
@@ -71,6 +83,7 @@ mh_range_slider.oninput = (function(){
 		});
 	});
 }(jQuery));
+}catch{}
 /*=========Slider========*
 
 var posicion = 0;
@@ -150,38 +163,82 @@ $(() => {
 /*====================================*/
 
 /*===========progress bar===========*/
+
+try{
+// function makesvg(percentage, inner_text=""){
+
+// 	var abs_percentage = Math.abs(percentage).toString();
+// 	var percentage_str = percentage.toString();
+// 	var classes = "";
+  
+// 	if(percentage < 0){
+// 	  classes = "danger-stroke circle-chart__circle--negative";
+// 	} else if(percentage > 0 && percentage <= 30){
+// 	  classes = "warning-stroke";
+// 	} else{
+// 	  classes = "success-stroke";
+// 	};
+  
+//    var svg = '<svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">'
+// 	   + '<circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9" />'
+// 	   + '<circle class="circle-chart__circle '+classes+'"'
+// 	   + 'stroke-dasharray="'+ abs_percentage+',100"    cx="16.9" cy="16.9" r="15.9" />'
+// 	   + '<g class="circle-chart__info">'
+// 	   + '   <text class="circle-chart__percent" x="17.9" y="15.5">'+percentage_str+'%</text>';
+  
+// 	if(inner_text){
+// 	  svg += '<text class="circle-chart__subline" x="16.91549431" y="22">'+inner_text+'</text>'
+// 	};
+	
+// 	svg += ' </g></svg>';
+	
+// 	return svg
+//   };
+  
+//   (function($){
+  
+// 	  $.fn.circlechart = function() {
+// 		  this.each(function() {
+// 			  var percentage = $(this).data("percentage");
+// 			  var inner_text = $(this).text();
+// 			  $(this).html(makesvg(percentage, inner_text));
+// 		  });
+// 		  return this;
+// 	  };
+  
+//   }(jQuery));
 function makesvg(percentage, inner_text=""){
 
 	var abs_percentage = Math.abs(percentage).toString();
 	var percentage_str = percentage.toString();
 	var classes = "";
-  
+	
 	if(percentage < 0){
-	  classes = "danger-stroke circle-chart__circle--negative";
+	  classes = "mh-danger-stroke mh-circle-chart__circle--negative";
 	} else if(percentage > 0 && percentage <= 30){
-	  classes = "warning-stroke";
+	  classes = "mh-warning-stroke";
 	} else{
-	  classes = "success-stroke";
+	  classes = "mh-success-stroke";
 	};
-  
-   var svg = '<svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">'
-	   + '<circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9" />'
-	   + '<circle class="circle-chart__circle '+classes+'"'
+	
+	var svg = '<svg class="mh-circle-chart" viewbox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">'
+	   + '<circle class="mh-circle-chart__background" cx="16.9" cy="16.9" r="15.9" />'
+	   + '<circle class="mh-circle-chart__circle '+classes+'"'
 	   + 'stroke-dasharray="'+ abs_percentage+',100"    cx="16.9" cy="16.9" r="15.9" />'
-	   + '<g class="circle-chart__info">'
-	   + '   <text class="circle-chart__percent" x="17.9" y="15.5">'+percentage_str+'%</text>';
-  
+	   + '<g class="mh-circle-chart__info">'
+	   + '   <text class="mh-circle-chart__percent" x="17.9" y="15.5">'+percentage_str+'%</text>';
+	
 	if(inner_text){
-	  svg += '<text class="circle-chart__subline" x="16.91549431" y="22">'+inner_text+'</text>'
+	  svg += '<text class="mh-circle-chart__subline" x="16.91549431" y="22">'+inner_text+'</text>'
 	};
 	
 	svg += ' </g></svg>';
 	
 	return svg
-  };
-  
-  (function( $ ) {
-  
+	};
+	
+	(function( $ ) {
+	
 	  $.fn.circlechart = function() {
 		  this.each(function() {
 			  var percentage = $(this).data("percentage");
@@ -190,6 +247,6 @@ function makesvg(percentage, inner_text=""){
 		  });
 		  return this;
 	  };
-  
-  }( jQuery ));
-
+	
+	}( jQuery ));
+}catch{}
