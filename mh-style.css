@@ -3080,7 +3080,7 @@ nav.mh-corp .mh-menu-btn:checked ~ .mh-menu-icon .mh-corp-icon:after{
 }
 .mh-navbar-style-1 button.mh-btn.mh-btn-submit {
 	border: none;
-	padding: .4rem .8rem;
+	padding: .5rem .8rem;
 	font-size: larger;
 	cursor: pointer;
 	transition: background .5s ease;
