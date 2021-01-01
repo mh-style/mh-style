@@ -1778,7 +1778,7 @@
 .mh-atm:before {
   content: "\f13e";
 }
-.mh-category:before {
+.mh-category-alt:before {
   content: "\f13f";
 }
 .mh-not-listed-location:before {
