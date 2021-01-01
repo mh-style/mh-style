@@ -1740,8 +1740,6 @@ html,body {
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin-right: -15px;
-	margin-left: -15px;
 }
 .mh-col-1, .mh-col-2, .mh-col-3, .mh-col-4, .mh-col-5, .mh-col-6, .mh-col-7, .mh-col-8, .mh-col-9, .mh-col-10, .mh-col-11, .mh-col-12, .mh-col,
 .mh-col-auto, .mh-col-sm-1, .mh-col-sm-2, .mh-col-sm-3, .mh-col-sm-4, .mh-col-sm-5, .mh-col-sm-6, .mh-col-sm-7, .mh-col-sm-8, .mh-col-sm-9, .mh-col-sm-10, .mh-col-sm-11, .mh-col-sm-12, .mh-col-sm,
