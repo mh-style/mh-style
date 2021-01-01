@@ -658,6 +658,9 @@ html,body {
 .mh-di{
 	display: inline !important;
 }
+.mh-dfw{
+	flex-wrap: wrap;
+}
 /*=============Width============*/
 .mh-w-auto{
 	width: auto !important;
