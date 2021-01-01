@@ -648,11 +648,9 @@ html,body {
 	display: flex !important;
 }
 .mh-dfr{
-	display: flex !important;
 	flex-direction: row !important;
 }
 .mh-dfc{
-	display: flex !important;
 	flex-direction: column !important;
 }
 .mh-di{
