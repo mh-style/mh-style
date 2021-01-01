@@ -3536,7 +3536,7 @@
 .mh-arrow-circle-up:before {
   content: "\f388";
 }
-.mh-article:before {
+.mh-article-alt:before {
   content: "\f389";
 }
 .mh-attach-email:before {
@@ -4391,7 +4391,7 @@
 .mh-bargraph:before {
   content: "\e018";
 }
-.mh-grid:before {
+.mh-grid-alt:before {
   content: "\e019";
 }
 .mh-expand1:before {
