@@ -2723,13 +2723,13 @@ html,body {
 @media(max-width: 576px){
 	.mh-card-style-5{
 		column-count: 1 !important;
-		column-gap: 1rem;
+		column-gap: 1rem !important;
 	}
 }
 @media(max-width: 320px){
 	.mh-card-style-5{
 		column-count: 1 !important;
-		column-gap: 0.7rem;
+		column-gap: 0.7rem !important;
 	}
 }
 /*==============Outline Card===============*/
