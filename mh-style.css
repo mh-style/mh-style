@@ -2722,13 +2722,13 @@ html,body {
 }
 @media(max-width: 576px){
 	.mh-card-style-5{
-		column-count: 1;
+		column-count: 1 !important;
 		column-gap: 1rem;
 	}
 }
 @media(max-width: 320px){
 	.mh-card-style-5{
-		column-count: 1;
+		column-count: 1 !important;
 		column-gap: 0.7rem;
 	}
 }
