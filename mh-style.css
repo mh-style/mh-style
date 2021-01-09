@@ -5128,6 +5128,9 @@ section .mh-col-md-6 {
 	width: 240px;
 	height: 380px;
 }
+.mh-3d-hover-effect-style-1{
+	display: -webkit-box;
+}
 .mh-3d-hover-effect-style-1 .mh-3d-card-hover-effect{
 	cursor: pointer;
 	width: 240px;
