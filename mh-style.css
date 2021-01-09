@@ -5012,7 +5012,7 @@ section .mh-col-md-6 {
 	overflow: hidden;
 	background: #ff070745;
 	color: #fff;
-	height: 70%;
+	height: 80%;
 	width: 0;
 	transition: 0.5s ease;
 }
@@ -5032,7 +5032,7 @@ section .mh-col-md-6 {
 
 .mh-team-members-style-2 .mh-team-member:hover .mh-body,
 .mh-team-members-style-3 .mh-team-member:hover .mh-body {
-	height: 70%;
+	height: 80%;
 }
 
 /*================image Gallery=================*/
