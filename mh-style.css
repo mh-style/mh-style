@@ -8891,3 +8891,51 @@ section .mh-col-md-6 {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+
+/*==========Drag & Drop=========*/
+.mh-drag-drop{
+  border: 2px dashed #fff;
+  height: 500px;
+  width: 700px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+.mh-drag-drop.active{
+  border: 2px solid #fff;
+}
+.mh-drag-drop .icon{
+  font-size: 100px;
+  color: #fff;
+}
+.mh-drag-drop .mh-drag-drop-header{
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+}
+.mh-drag-drop span{
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin: 10px 0 15px 0;
+}
+.mh-drag-drop .mh-drag-drop-button{
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #5256ad;
+  background: #fff;
+  border-radius: 5px;
+}
+.mh-drag-drop img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}

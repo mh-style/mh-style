@@ -826,3 +826,49 @@ try{
 	  });
 	  
 }catch{}
+try{
+	const dropArea = document.querySelector(".mh-drag-drop"),
+        dragText = dropArea.querySelector(".mh-drag-drop-header"),
+        dragbutton = dropArea.querySelector(".mh-drag-drop-button"),
+        draginput = dropArea.querySelector(".mh-drag-drop-input");
+        let file;
+
+        dragbutton.onclick = ()=>{
+            draginput.click();
+        }
+        draginput.addEventListener("change", function(){
+            file = this.files[0];
+            showFile();
+            dropArea.classList.add("active");
+        });
+        dropArea.addEventListener("dragover", (event)=>{
+            event.preventDefault();
+            dropArea.classList.add("active");
+            dragText.textContent = "Release to Upload File";
+        });
+        dropArea.addEventListener("dragleave", ()=>{
+            dropArea.classList.remove("active");
+            dragText.textContent = "Drag & Drop to Upload File";
+        });
+        dropArea.addEventListener("drop", (event)=>{
+            event.preventDefault();
+            file = event.dataTransfer.files[0];
+            showFile();
+        });
+        function showFile(){
+            let fileType = file.type;
+            let validExtensions = ["image/jpeg", "image/jpg", "image/png"];
+            if(validExtensions.includes(fileType)){
+                let fileReader = new FileReader();
+                fileReader.onload = ()=>{
+                    let fileURL = fileReader.result;
+                    let imgTag = `<img src="${fileURL}" alt="">`;
+                    dropArea.innerHTML = imgTag;
+                }
+                fileReader.readAsDataURL(file);
+            }else{
+                dropArea.classList.remove("active");
+                alert("It's don't support")
+            }
+        }
+}catch{}
