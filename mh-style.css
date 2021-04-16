@@ -4215,7 +4215,7 @@ color: #ddd;
 }
 
 /*=============Accordion============*/
-.mh-accordion {
+.mh-accordion-style-1 .mh-accordion {
   background-color: #8fb7a5;
   color: #fff;
   cursor: pointer;
@@ -4228,7 +4228,7 @@ color: #ddd;
   outline: none;
 }
 
-.mh-accordion-panel {
+.mh-accordion-style-1 .mh-accordion-panel {
   background-color: #fff;
   padding: 0 18px;
   overflow: hidden;
@@ -4236,26 +4236,86 @@ color: #ddd;
   transition: max-height 0.2s ease-out;
 }
 
-.mh-accordion-panel p {
+.mh-accordion-style-1 .mh-accordion-panel p {
   font: 16px lato, sans-serif;
 }
 
-.mh-acordion-active,
-.mh-accordion:hover {
+.mh-accordion-style-1 .mh-accordion-active,
+.mh-accordion-style-1 .mh-accordion:hover {
   background-color: #527e6a;
 }
 
-.mh-accordion:after {
+.mh-accordion-style-1 .mh-accordion:after {
   content: "\02795";
   font-size: 15px;
   float: right;
   margin-left: 5px;
 }
 
-.mh-accordion-active:after {
+.mh-accordion-style-1 .mh-accordion-active:after {
   content: "\02796";
 }
-
+/*=============accordion-2===============*/
+.mh-accardion-style-2 .mh-accordion-title-section{
+  cursor: pointer;
+  margin: 5px 0;
+}
+.mh-accardion-style-2 .mh-accordion-title{
+  background-color: #a77fb7;
+  padding: 15px;
+  display: flex;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: space-between;
+}
+.mh-accardion-style-2 .mh-accordion-icon{
+  position: relative;
+  width: 14px;
+}
+.mh-accardion-style-2 .mh-accordion-icon:before,.mh-accardion-style-2 .mh-accordion-icon:after{
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 3px;
+  background-color: #fff;
+  top: -1.5px;
+}
+.mh-accardion-style-2 .mh-accordion-icon:after{
+  transform: rotate(90deg);
+  transition:.3s linear;
+}
+.mh-accardion-style-2 .mh-accordion-content{
+  background: #7676C7;
+  color: #fff;
+  line-height: 24px;
+  margin: 6px 0;
+  font-size: 19px;
+  opacity: 0;
+  display: none;
+  height: 0px;
+  transition: .3s ease;
+}
+.mh-accardion-style-2 .mh-accordion-title-section:target .mh-accordion-content{
+  height: auto;
+  opacity: 1;
+  padding: 15px;
+  display: block;
+  margin: 0px 0px 12px 0;
+}
+.mh-accardion-style-2 .mh-accordion-title-section:target .mh-accordion-icon:after{
+  transform: rotate(0deg);
+}
+@media screen and (max-width: 768px){
+  .mh-accardion-style-2 .mh-accordion-title{
+    font-size: 17px;
+  }
+  .mh-accardion-style-2 .mh-accordion-content{
+    font-size: 14px;
+  }
+}
 /*=============switch==============*/
 /* .mh-switch-1,
 .mh-switch-2{
