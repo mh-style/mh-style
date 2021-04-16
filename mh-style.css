@@ -1271,74 +1271,92 @@ body {
 }
 
 /*==============text-color================*/
+.mh-color-black-hover:hover,
 .mh-color-black {
   color: #000 !important;
 }
 
+.mh-color-white-hover:hover,
 .mh-color-white {
   color: white !important;
 }
 
+.mh-color-light-hover:hover,
 .mh-color-light {
   color: #f8f9fa !important;
 }
 
+.mh-color-limegreen-hover:hover,
 .mh-color-limegreen {
   color: limegreen !important;
 }
 
+.mh-color-blue-hover:hover,
 .mh-color-blue {
   color: blue !important;
 }
 
+.mh-color-orange-hover:hover,
 .mh-color-orange {
   color: orange !important;
 }
 
+.mh-color-green-hover:hover,
 .mh-color-green {
   color: green !important;
 }
 
+.mh-color-lightgreen-hover:hover,
 .mh-color-lightgreen {
   color: lightgreen !important;
 }
 
+.mh-color-darkgreen-hover:hover,
 .mh-color-darkgreen {
   color: darkgreen !important;
 }
 
+.mh-color-red-hover:hover,
 .mh-color-red {
   color: red !important;
 }
 
+.mh-color-skyblue-hover:hover,
 .mh-color-skyblue {
   color: skyblue !important;
 }
 
+.mh-color-darkblue-hover:hover,
 .mh-color-darkblue {
   color: rgb(0, 140, 255) !important;
 }
 
+.mh-color-maroon-hover:hover,
 .mh-color-maroon {
   color: maroon !important;
 }
 
+.mh-color-yellow-hover:hover,
 .mh-color-yellow {
   color: yellow !important;
 }
 
+.mh-color-lightgray-hover:hover,
 .mh-color-lightgray {
   color: lightgray !important;
 }
 
+.mh-color-gray-hover:hover,
 .mh-color-gray {
   color: gray !important;
 }
 
+.mh-color-gold-hover:hover,
 .mh-color-gold {
   color: gold !important;
 }
 
+.mh-color-aqua-hover:hover,
 .mh-color-aqua {
   color: aqua !important;
 }
@@ -1403,78 +1421,97 @@ body {
 
 /*===========background-color==============*/
 
+.mh-bg-black-hover:hover,
 .mh-bg-black {
   background-color: #000 !important;
 }
 
+.mh-bg-white-hover:hover,
 .mh-bg-white {
   background-color: white !important;
 }
 
+.mh-bg-light-hover:hover,
 .mh-bg-light {
   background-color: #f8f9fa !important;
 }
 
+.mh-bg-blue-hover:hover,
 .mh-bg-blue {
   background-color: blue !important;
 }
 
+.mh-bg-green-hover:hover,
 .mh-bg-green {
   background-color: green !important;
 }
 
+.mh-bg-lightgreen-hover:hover,
 .mh-bg-lightgreen {
   background-color: lightgreen !important;
 }
 
+.mh-bg-limegreen-hover:hover,
 .mh-bg-limegreen {
   background-color: limegreen !important;
 }
 
+.mh-bg-orange-hover:hover,
 .mh-bg-orange {
   background-color: orange !important;
 }
 
+.mh-bg-darkgreen-hover:hover,
 .mh-bg-darkgreen {
   background-color: darkgreen !important;
 }
 
+.mh-bg-red-hover:hover,
 .mh-bg-red {
   background-color: red !important;
 }
 
+.mh-bg-skyblue-hover:hover,
 .mh-bg-skyblue {
   background-color: skyblue !important;
 }
 
+.mh-bg-darkblue-hover:hover,
 .mh-bg-darkblue {
   background-color: rgb(0, 140, 255) !important;
 }
 
+.mh-bg-maroon-hover:hover,
 .mh-bg-maroon {
   background-color: maroon !important;
 }
 
+.mh-bg-yellow-hover:hover,
 .mh-bg-yellow {
   background-color: yellow !important;
 }
 
+.mh-bg-lightgray-hover:hover,
 .mh-bg-lightgray {
   background-color: lightgray !important;
 }
 
+.mh-bg-gray-hover:hover,
 .mh-bg-gray {
   background-color: gray !important;
 }
 
+.mh-bg-gold-hover:hover,
 .mh-bg-gold {
   background-color: gold !important;
 }
 
+.mh-bg-aqua-hover:hover,
 .mh-bg-aqua {
   background-color: aqua !important;
 }
 
+.mh-bg-blank-hover:hover,
 .mh-bg-blank {
   background: transparent !important;
 }
@@ -4256,7 +4293,7 @@ color: #ddd;
   content: "\02796";
 }
 /*=============accordion-2===============*/
-.mh-accardion-style-2 .mh-accordion-title-section{
+.mh-accardion-style-2 .mh-accordion-body{
   cursor: pointer;
   margin: 5px 0;
 }
@@ -4298,14 +4335,14 @@ color: #ddd;
   height: 0px;
   transition: .3s ease;
 }
-.mh-accardion-style-2 .mh-accordion-title-section:target .mh-accordion-content{
+.mh-accardion-style-2 .mh-accordion-body:target .mh-accordion-content{
   height: auto;
   opacity: 1;
   padding: 15px;
   display: block;
   margin: 0px 0px 12px 0;
 }
-.mh-accardion-style-2 .mh-accordion-title-section:target .mh-accordion-icon:after{
+.mh-accardion-style-2 .mh-accordion-body:target .mh-accordion-icon:after{
   transform: rotate(0deg);
 }
 @media screen and (max-width: 768px){
